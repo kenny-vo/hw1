@@ -1,7 +1,12 @@
 body {
   color: grey;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'roboto', sans-serif;
 
+}
+
+@@font-face {
+  font-family: 'roboto';
+  src: url('fonts/Roboto-Regular.ttf');
 }
 
 .jumbotron {
@@ -83,6 +88,11 @@ hr {
   border-color: #2A82E9;
   margin-top: 15px;
 }
+
+#help-section {
+  margin-bottom: 50px;
+}
+
 .services-title {
   color: #2A82E9;
   font-size: 45px;
@@ -92,4 +102,40 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+#blue-section {
+  height: 450px;
+  color: white;
+}
+
+.get-involved {
+  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+}
+
+.get-involved-p {
+  font-size: 16px;
+}
+
+.difference-box{
+  font-size: 17px;
+  border-width: thin;
+  border-style: solid;
+  border-color: white;
+  width: 160px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+#footer-sec {
+  background-color: #33DAFF;
+  color: white;
+}
+
+.info-titles {
+  color: #2A82E9;
+  font-size: 18px;
 }
