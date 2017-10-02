@@ -1,0 +1,29 @@
+body {
+  color: black;
+}
+
+.jumbotron {
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+
+.nav-link {
+  color: black;
+}
+
+#jumbo-text {
+  font-size: 100px;
+  color: white;
+  text-align: left;
+  margin-bottom: 0px;
+  overflow-wrap: break-word;
+}
+
+.jumbotron p {
+  font-size: 70px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
