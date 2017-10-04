@@ -39,6 +39,7 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  font-weight: bold;
   font-family: 'roboto-bold';
 }
 
@@ -126,14 +127,16 @@ hr {
 
 .contact-number {
   color: #2A82E9;
-  font-size: 20px;
-  padding-top: 7px;
-  padding-bottom: : 7px;
-  padding-left: 3px;
-  padding-right:3px;
+  font-size: 25px;
+  padding-top: 1px;
+  padding-bottom: : 1px;
+  padding-left: 4px;
+  padding-right:4px;
   border-style: solid;
   border-color: #2A82E9;
   margin-top: 15px;
+  font-family: 'roboto-bold';
+
 }
 
 #help-section {
@@ -144,6 +147,12 @@ hr {
   color: #2A82E9;
   font-size: 55px;
   font-family: 'roboto-bold';
+}
+
+.service-detail-title {
+  font-family: 'roboto-bold';
+  font-weight: 500;
+  font-size: 25px;
 }
 
 .services-details {
@@ -161,9 +170,11 @@ hr {
   border-width: medium;
   border-color: #2A82E9;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 1px;
   color:  #2A82E9;
+  font-family: 'roboto-bold';
+
 }
 
 .find-out-more-btn:hover {

@@ -1,0 +1,237 @@
+@media (min-width: 768px) and (max-width: 979px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important ;
+  }
+  .visible-tablet {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+  .visible-phone {
+    display: inherit !important;
+  }
+  .hidden-phone {
+    display: none !important;
+  }
+}
+.visible-print {
+  display: none !important;
+}
+
+
+.visible-desktop-text{
+	display: inline;
+}
+@media (max-width: 480px) {
+div#content-slider-1.contentSlider .slider-media {display: none}
+.table-accordion .accordion-heading {
+   width: 96%;
+}
+  }/*end max-width: 480px*/
+
+
+/* iPhone Verticle */
+@media (max-width: 767px) {
+
+  body {
+    padding:0px;
+    margin: 0px;
+  }
+
+  /* Not sure what it was but something in header has extra padding to side, just removed all left and right margin and padding */
+  #main-menu > *{padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px; width: auto}
+
+  #nav_search .span2{width: 70%; display: inline; padding-left: 10px}
+
+
+   .royalSlider {
+	height: 324px !important;
+	}
+	div#content-slider-1.contentSlider .slider-media {display: none}
+
+	div#content-slider-1 div.slide-content { width: 70%; margin: 0 15%}
+
+ div#four-actions img{
+  	width: 47%; float: left; margin-left: 2%
+  }
+
+  #index-page .container, #interior-page .container{
+	padding: 9px 9px; background-color: #ffffff;
+}
+
+#breadcrumbs{
+	padding-left:20px;
+}
+
+#interior-page h2 {margin:18px 0 0px 0}
+
+.table-accordion .accordion-heading {
+   width: 90%; padding: 2.5%;
+}
+
+#video-page {background-color: #ffffff;padding: 20px 1% 10px 1.25%; width: 98%%}
+#video-page .video-content-container {margin:0 10px 10px 0}
+
+
+div#video-page div.program-menu {float: left; width: 95%; margin: 10px 1%}
+div#video-page div.program-menu .btn-large {width: 90%}
+div#video-page div.program-menu .btn-large.dropdown-toggle {width: 10%}
+
+#video-page .span6 {margin-left: 0}
+#video-page .span6.text, #video-page .vid-odd .span6.text {float: left; width:90%; margin: 0px}
+#video-page .vid-even .span6.video, #video-page .vid-odd .span6.video {float: left; width:85%;}
+#video-page  #BCLcontainingBlock {
+    margin-bottom: 0px;
+}
+#video-page .BCLvideoWrapper {margin-bottom: 10px;}
+
+hr.faded, hr.faded-first {margin: 20px 0}
+
+
+
+footer {margin: 0px; padding: 9px 9px 18px 9px}
+#footer .span3:first-child {
+	margin-left: 0px;
+}
+
+ .chapterlist-item {
+	width: 99%;
+  }
+  
+  div.chapter-video .program-menu {margin-top: 20px;}
+  
+  div.chapter-video .program-menu .btn-group.pull-right {float: left}
+  
+  .iep-resources.table td {width: 100%; display: block;}
+  
+  
+} /*end max-width: 767px iPhone Verticle*/
+
+
+/* Phone Horizontal and Small Tablet */
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+
+  #four-actions img, #centerimage img {
+  	width: 100%;
+  }
+  .span12 {
+  	margin-left: 0px;
+  }
+
+.table-accordion .accordion-heading {
+   width: 96%;
+}
+
+  .visible-desktop-text{
+  	display: none;
+  }
+
+  #video-page .span6 .text{float: left; width:97%;}
+  hr.faded, hr.faded-first {margin: 20px 0}
+
+  div.chapterlist-item {
+	width: 49%;
+}
+
+}/*end max-width: 979px*/
+
+@media (max-width: 979px) {
+
+
+.royalSlider {
+	height: 300px;
+	}
+
+#four-actions{
+	padding: 9px 0 0px 0;
+}
+.span12 {
+	margin-left: 0px;
+}
+
+.sidebar-nav h4 {
+  width: 87%;}
+
+.table-accordion .accordion-heading {
+   width: 95%;
+}
+
+#BCLcontainingBlock {margin-bottom: 60px;}
+
+
+div.chapterlist-item {
+	width: 32%;
+}
+
+  }/*end max-width: 979px*/
+
+
+
+
+@media (min-width: 980px) {
+
+
+	#four-actions img{
+	  	width: 100%;
+	  }
+	#four-actions{
+		padding: 18px 0 9px 0;
+	}
+
+	.span12 {
+		margin-left: 0px;
+	}
+
+	.table-accordion .accordion-heading {
+   width: 96%;
+}
+
+
+}/*end min-width: 980px*/
+
+
+@media (min-width: 1200px) {
+
+	.royalSlider {
+	height: 300px;
+	}
+
+	div#content-slider-1 img {max-height: 275px}
+
+	#four-actions img{
+  	width: 100%;
+  }
+
+	.nav{
+		padding-left: 65px;
+	}
+
+
+	#footer .span3:first-child {
+		margin-left: 30px;
+	}
+
+	#breadcrumbs{
+		padding: 9px 0 9px 60px;
+	}
+
+	.sidebar-nav h4 {
+  width: 93%;}
+  .table-accordion .accordion-heading {
+   width: 97%;
+
+ }/*end min-width: 1200px*/
